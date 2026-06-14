@@ -4,24 +4,25 @@ A console-based Library Management System developed using Object-Oriented Progra
 
 ## Features
 
-- Add new books
-- Display all books
-- Search books by title
-- Register library users
-- Display registered users
-- Borrow books
-- Return books
-- Save data to text files
-- Load saved data automatically
+* Add new books
+* Display all books
+* Search books by title
+* Register library users
+* Display registered users
+* Borrow books
+* Return books
+* Save data to text files
+* Load saved data automatically
 
 ## Technologies Used
 
-- C++
-- STL (Vector, String)
-- File Handling
+* C++
+* STL (Vector, String)
+* File Handling
 
 ## Project Structure
 
+```
 Library Management System/
 │
 ├── Book.h
@@ -34,26 +35,37 @@ Library Management System/
 ├── books.txt
 ├── users.txt
 └── README.md
+```
 
 ## How to Run
 
-Compile:
+### Compile
 
+```bash
 g++ main.cpp Library.cpp Book.cpp User.cpp -o library
+```
 
-Execute:
+### Execute (Linux/Mac)
 
+```bash
 ./library
+```
 
-Windows:
+### Execute (Windows)
 
+```bash
 library.exe
+```
 
 ## Concepts Used
 
-- Classes and Objects
-- Encapsulation
-- Vectors
-- File Handling
-- Serialization and Deserialization
-- Modular Programming
+* Classes and Objects
+* Encapsulation
+* Vectors
+* File Handling
+* Serialization and Deserialization
+* Modular Programming
+
+## Author
+
+Nakul Firodiya
